@@ -1,5 +1,8 @@
 import { useState } from 'react'
-import './App.css'
+
+function Square() {
+  <button className='square'>X</button>
+}
 
 function App() {
 
