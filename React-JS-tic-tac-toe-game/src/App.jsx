@@ -7,7 +7,7 @@ function square () {
 function App() {
   return (
     <>
-      
+      <square />
     </>
   )
 }
