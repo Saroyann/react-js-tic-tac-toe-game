@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-function square () {
-  <button className='square'>x</button>
+function Square () {
+  <button className='square'>bruhhh</button>
 }
 
 function App() {
   return (
     <>
-      <square />
+      <Square />
     </>
   )
 }
