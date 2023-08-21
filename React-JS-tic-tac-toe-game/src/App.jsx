@@ -4,7 +4,7 @@ function Square() {
 return  <button className='square'>X</button>
 }
 
-function App() {
+export default function Board() {
 
   return (
     <div className='board'>
@@ -20,5 +20,3 @@ function App() {
     </div>
   )
 }
-
-export default App
