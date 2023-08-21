@@ -7,7 +7,7 @@ return  <button className='square'>X</button>
 function App() {
 
   return (
-    <>
+    <div className='board'>
     <Square />
     <Square />
     <Square />
@@ -17,7 +17,7 @@ function App() {
     <Square />
     <Square />
     <Square />
-    </>
+    </div>
   )
 }
 
