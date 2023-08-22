@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function Square({value}) {
-return  <button className='square' onClick={handleClick}>{value}</button>
+return  <button className='square' onClick={onSquareClick}>{value}</button>
 }
 
 export default function Board() {
