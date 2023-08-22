@@ -7,6 +7,7 @@ return  <button className='square' onClick={onSquareClick}>{value}</button>
 export default function Board() {
 
   const [squares, setSquares] = useState(Array(9).fill(null));
+  const [xIsNext, setXIsNext] =
 
   function hanndleClick(i) {
     const nextSquare = squares.slice();
