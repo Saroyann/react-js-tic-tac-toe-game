@@ -11,11 +11,8 @@ export default function Board() {
 
   function hanndleClick(i) {
     const nextSquare = squares.slice();
-    if(xIsNext) {
-      nextSquare[i] = 'X';
-    } else {
-      nextSquare[i] = 'O';
-    }
+
+    nextSquare[i] = xIsNext ? 'X' : 'O'
     setSquares(nextSquare);
     setXIsNext(!xIsNext);
   }
