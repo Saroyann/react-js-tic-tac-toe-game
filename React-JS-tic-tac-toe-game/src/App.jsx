@@ -11,6 +11,8 @@ return  <button className='square' onClick={handleClick}>{value}</button>
 
 export default function Board() {
 
+  const [squares, setSquares] = 
+
   return (
     <div className='board'>
     <Square />
