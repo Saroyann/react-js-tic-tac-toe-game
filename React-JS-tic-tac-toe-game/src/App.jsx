@@ -8,6 +8,10 @@ export default function Board() {
 
   const [squares, setSquares] = useState(Array(9).fill(null));
 
+  function hanndleClick() {
+    
+  }
+
   return (
     <div className='board'>
     <Square value={squares[0]} onSquareClick={hanndleClick(0)} />
