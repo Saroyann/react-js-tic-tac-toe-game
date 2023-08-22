@@ -9,7 +9,7 @@ export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
 
   function hanndleClick(i) {
-    
+    const nextSquare = squares.slice();
   }
 
   return (
