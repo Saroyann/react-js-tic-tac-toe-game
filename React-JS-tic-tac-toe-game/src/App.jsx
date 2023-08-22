@@ -12,6 +12,8 @@ export default function Board() {
   function hanndleClick(i) {
     const nextSquare = squares.slice();
 
+    if(squares[i]) return;
+
     nextSquare[i] = xIsNext ? 'X' : 'O'
     setSquares(nextSquare);
     setXIsNext(!xIsNext);
