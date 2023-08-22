@@ -22,5 +22,3 @@ export default function Board() {
     </div>
   )
 }
-
-// bolehkah secantik ini?
