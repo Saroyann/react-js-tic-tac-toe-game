@@ -37,6 +37,7 @@ export default function Board() {
 function calculateWinner(squares) {
   const line = [
     [0,1,2],
-    []
+    [3,4,5],
+    
   ]
 }
