@@ -48,5 +48,7 @@ function calculateWinner(squares) {
 
   for (let i = 0 ; i < lines.length ; i++) {
     const a = lines[i][0];
+    const b = lines[i][1];
+    const c = lines[i][2];
   }
 }
