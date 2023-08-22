@@ -10,7 +10,7 @@ export default function Board() {
 
   return (
     <div className='board'>
-    <Square value={squares[0]} />
+    <Square value={squares[0]} onSquareClick={hanndleClick(0)} />
     <Square value={squares[1]} />
     <Square value={squares[2]} />
     <Square value={squares[3]} />
