@@ -10,7 +10,7 @@ export default function Board() {
 
   function hanndleClick(i) {
     const nextSquare = squares.slice();
-    nextSquare = [i];
+    nextSquare[i] = 'X';
   }
 
   return (
