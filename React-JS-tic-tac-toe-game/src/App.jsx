@@ -23,4 +23,4 @@ export default function Board() {
   )
 }
 
-// meski ku bukan yang pertama di hati mu tapi, cinta ku terbaik untukmuu meski ku bukan bintang di langiiit tapi  cintaku yang terbaiik lmaoo..aseli capek hidup kyajk gubu terus akau bakal bunuh diri aja kali yak? ga sih kan aku pengen hidup ngapain mati?? manusia sejati nya tidak ada yang ingin mati, mereka hanya ingin lepas dari beban kehidupan..biarpun merek abunuh diri mereka [sti bakal menjai aa ys mendiai auyaf menjad a-payuff emdnjai [u7ajf mnedjki ap yang mendia [aayjn]]]
+// bolehkah secantik ini?
