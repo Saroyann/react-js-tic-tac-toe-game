@@ -26,6 +26,10 @@ body {
   height: 105px;
 }
 
+.container {
+  width: fit-content;
+}
+
 .status {
   margin-bottom: 5px;
   text-align: center;
