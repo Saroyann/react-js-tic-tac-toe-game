@@ -34,6 +34,7 @@ if (!winner && squares.every(square => square !== null)) {
 
   return (
     <>
+    <div className='container'>
     <div className='status'>{status}</div>
     <div className='board'>
       <Square value={squares[0]} onSquareClick={() => hanndleClick(0)} />
@@ -45,6 +46,7 @@ if (!winner && squares.every(square => square !== null)) {
       <Square value={squares[6]} onSquareClick={() => hanndleClick(6)} />
       <Square value={squares[7]} onSquareClick={() => hanndleClick(7)} />
       <Square value={squares[8]} onSquareClick={() => hanndleClick(8)} />
+    </div>
     </div>
     </>
   )
