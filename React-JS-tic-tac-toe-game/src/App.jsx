@@ -28,6 +28,7 @@ export default function Board() {
   }
 
   return (
+    <>
     <div className='board'>
       <Square value={squares[0]} onSquareClick={() => hanndleClick(0)} />
       <Square value={squares[1]} onSquareClick={() => hanndleClick(1)} />
@@ -39,6 +40,7 @@ export default function Board() {
       <Square value={squares[7]} onSquareClick={() => hanndleClick(7)} />
       <Square value={squares[8]} onSquareClick={() => hanndleClick(8)} />
     </div>
+    </>
   )
 }
 
