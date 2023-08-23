@@ -21,6 +21,11 @@ export default function Board() {
 
   const winner = calculateWinner(squares);
   let status ='';
+  for(let i = 0 ; i < winner.length ; i++) {
+    if(winner[i] === false) {
+      
+    }
+  }
   if(winner) {
     status = 'winner ' + winner;
   } else {
