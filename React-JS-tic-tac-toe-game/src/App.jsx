@@ -24,7 +24,7 @@ let status = '';
 
 // Tambahkan pengecekan hasil seri
 if (!winner && squares.every(square => square !== null)) {
-  status = 'Seri';
+  status = 'draw';
 } else if (winner) {
   status = 'winner: ' + winner;
 } else {
