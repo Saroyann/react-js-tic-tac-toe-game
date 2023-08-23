@@ -29,9 +29,7 @@ export default function Board() {
 
   return (
     <>
-    <div>
-      
-    </div>
+    <div className='status'>{status}</div>
     <div className='board'>
       <Square value={squares[0]} onSquareClick={() => hanndleClick(0)} />
       <Square value={squares[1]} onSquareClick={() => hanndleClick(1)} />
