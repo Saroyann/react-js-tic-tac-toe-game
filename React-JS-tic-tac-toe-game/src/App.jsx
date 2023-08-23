@@ -20,7 +20,8 @@ export default function Board() {
   }
 
   const winner = calculateWinner(squares);
-  let status = 
+  let status ='';
+  
 
   return (
     <div className='board'>
