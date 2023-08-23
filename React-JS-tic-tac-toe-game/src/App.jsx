@@ -22,7 +22,7 @@ export default function Board() {
   const winner = calculateWinner(squares);
   let status ='';
   if(winner) {
-    status = 'winner ' += winner;
+    status = 'winner ' + winner;
   } else {
     status = 'next player ' + (xIsNext ? 'X' : 'O');
   }
