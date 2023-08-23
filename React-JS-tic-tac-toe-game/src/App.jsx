@@ -12,7 +12,7 @@ export default function Board() {
   function hanndleClick(i) {
     const nextSquare = squares.slice();
 
-    if (squares[i]) return;
+    if (squares[i] || calculateWinner(squares)) return;
 
     nextSquare[i] = xIsNext ? 'X' : 'O'
     setSquares(nextSquare);
