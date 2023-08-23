@@ -20,13 +20,16 @@ export default function Board() {
   }
 
   const winner = calculateWinner(squares);
-  let status ='';
-  
-  if(winner) {
-    status = 'winner ' + winner;
-  } else {
-    status = 'next player ' + (xIsNext ? 'X' : 'O');
-  }
+let status = '';
+
+// Tambahkan pengecekan hasil seri
+if (!winner && squares.every(square => square !== null)) {
+  status = 'Seri';
+} else if (winner) {
+  status = 'winner: ' + winner;
+} else {
+  status = 'next player: ' + (xIsNext ? 'X' : 'O');
+}
   
 
   return (
