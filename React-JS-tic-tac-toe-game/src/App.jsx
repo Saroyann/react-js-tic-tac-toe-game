@@ -23,7 +23,7 @@ export default function Board() {
   let status ='';
   for(let i = 0 ; i < winner.length ; i++) {
     if(winner[i] === false) {
-      
+      status = 'draw'
     }
   }
   if(winner) {
