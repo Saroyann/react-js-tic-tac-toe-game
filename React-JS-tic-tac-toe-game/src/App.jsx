@@ -24,7 +24,7 @@ export default function Board() {
   if(winner) {
     status = 'winner ' += winner;
   } else {
-    status = 'next player ' += winner;
+    status = 'next player ' += xIsNext;
   }
 
   return (
