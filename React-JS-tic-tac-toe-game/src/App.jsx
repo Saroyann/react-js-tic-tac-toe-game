@@ -19,6 +19,8 @@ export default function Board() {
     setXIsNext(!xIsNext);
   }
 
+  const winner = calculateWinner(squares);
+
   return (
     <div className='board'>
       <Square value={squares[0]} onSquareClick={() => hanndleClick(0)} />
