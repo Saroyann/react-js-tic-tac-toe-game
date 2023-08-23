@@ -23,6 +23,8 @@ export default function Board() {
   let status ='';
   if(winner) {
     status = 'winner ' += winner;
+  } else {
+    status = 'next player ' += winner;
   }
 
   return (
