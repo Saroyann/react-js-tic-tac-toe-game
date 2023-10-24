@@ -20,34 +20,34 @@ export default function Board() {
   }
 
   const winner = calculateWinner(squares);
-let status = '';
+  let status = '';
 
-// Tambahkan pengecekan hasil seri
-if (!winner && squares.every(square => square !== null)) {
-  status = 'draw';
-} else if (winner) {
-  status = 'winner: ' + winner;
-} else {
-  status = 'next player: ' + (xIsNext ? 'X' : 'O');
-}
-  
+  // Tambahkan pengecekan hasil seri
+  if (!winner && squares.every(square => square !== null)) {
+    status = 'draw';
+  } else if (winner) {
+    status = 'winner: ' + winner;
+  } else {
+    status = 'next player: ' + (xIsNext ? 'X' : 'O');
+  }
+
 
   return (
     <>
-    <div className='container'>
-    <div className='status'>{status}</div>
-    <div className='board'>
-      <Square value={squares[0]} onSquareClick={() => hanndleClick(0)} />
-      <Square value={squares[1]} onSquareClick={() => hanndleClick(1)} />
-      <Square value={squares[2]} onSquareClick={() => hanndleClick(2)} />
-      <Square value={squares[3]} onSquareClick={() => hanndleClick(3)} />
-      <Square value={squares[4]} onSquareClick={() => hanndleClick(4)} />
-      <Square value={squares[5]} onSquareClick={() => hanndleClick(5)} />
-      <Square value={squares[6]} onSquareClick={() => hanndleClick(6)} />
-      <Square value={squares[7]} onSquareClick={() => hanndleClick(7)} />
-      <Square value={squares[8]} onSquareClick={() => hanndleClick(8)} />
-    </div>
-    </div>
+      <div className='container'>
+        <div className='status'>{status}</div>
+        <div className='board'>
+          <Square value={squares[0]} onSquareClick={() => hanndleClick(0)} />
+          <Square value={squares[1]} onSquareClick={() => hanndleClick(1)} />
+          <Square value={squares[2]} onSquareClick={() => hanndleClick(2)} />
+          <Square value={squares[3]} onSquareClick={() => hanndleClick(3)} />
+          <Square value={squares[4]} onSquareClick={() => hanndleClick(4)} />
+          <Square value={squares[5]} onSquareClick={() => hanndleClick(5)} />
+          <Square value={squares[6]} onSquareClick={() => hanndleClick(6)} />
+          <Square value={squares[7]} onSquareClick={() => hanndleClick(7)} />
+          <Square value={squares[8]} onSquareClick={() => hanndleClick(8)} />
+        </div>
+      </div>
     </>
   )
 }
